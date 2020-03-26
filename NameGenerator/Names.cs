@@ -8,7 +8,7 @@ using csvf;
 
 namespace Namelists
 {
-    static class Names
+    public static class Names
     {
         static Random rndm = new Random();
         static string[] MaleFirstNames;
@@ -21,19 +21,19 @@ namespace Namelists
 
         public static void Load()
         {
-            string filename = "Namelists/LastNameList.csv";
+            string filename = "namelist/LastNameList.csv";
             LastNames = CSV.ReadAllSC(filename).Cast<string>().ToArray();
-            filename = "Namelists/MaleFirstNames.csv";
+            filename = "namelist/MaleFirstNames.csv";
             MaleFirstNames = CSV.ReadAllSC(filename).Cast<string>().ToArray();
-            filename = "Namelists/FemaleFirstNames.csv";
+            filename = "namelist/FemaleFirstNames.csv";
             FemaleFirstNames = CSV.ReadAllSC(filename).Cast<string>().ToArray();
-            filename = "Namelists/TownNameBeggining.csv";
+            filename = "namelist/TownNameBeggining.csv";
             TownNB = CSV.ReadAllSC(filename).Cast<string>().ToArray();
-            filename = "Namelists/TownNameEnding.csv";
+            filename = "namelist/TownNameEnding.csv";
             TownNE = CSV.ReadAllSC(filename).Cast<string>().ToArray();
-            filename = "Namelists/ProvinceNameEnding.csv";
+            filename = "namelist/ProvinceNameEnding.csv";
             ProvinceNE = CSV.ReadAllSC(filename).Cast<string>().ToArray();
-            filename = "Namelists/Titles.csv";
+            filename = "namelist/Titles.csv";
             TitleData = CSV.ReadAllMC(filename);
         }
         public static bool TitlePassesDown(int type)
