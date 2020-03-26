@@ -4,4 +4,18 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="namelist\FemaleFirstNames.txt" />
+    <None Remove="namelist\LastNames.txt" />
+    <None Remove="namelist\MaleFirstNames.txt" />
+    <None Remove="namelist\ProvinceNameEnding.txt" />
+    <None Remove="namelist\Titles.txt" />
+    <None Remove="namelist\TownNameBeggining.txt" />
+    <None Remove="namelist\TownNameEnding.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CSVHandler\CSVHandler\CSVHandler.csproj" />
+  </ItemGroup>
+
 </Project>

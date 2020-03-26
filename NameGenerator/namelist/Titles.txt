@@ -1,0 +1,15 @@
+﻿King Queen 7.0
+Mayor Mayor 1.0
+Prince Princess 5.0
+Emporer Emporess 9.0
+Sir Dame 2.0
+Baron Baroness 2.5
+Duke Duchess 4.2
+Count Countess 2.8
+Lord Lady 0.6
+Commander Commander 1.5
+Chief Chief 0.4
+Chancellor Chancellor 6.5
+President President 6.0
+Premier Premier 3.5
+Sultan Sultan 5.5
