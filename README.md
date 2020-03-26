@@ -12,7 +12,7 @@ This project is target for .NET core 2.1. It should be compliant with earlier ve
 
 ### Built With
 
-* [CSVHandler](https://bitbucket.org/uaineteinestudio/csvhandler) by [UaineTeine](https://bitbucket.org/uaineteinestudio/) - The INI file parser library which is required to compile the software.
+* [CSVHandler](https://bitbucket.org/uaineteinestudio/csvhandler) by [UaineTeine](https://bitbucket.org/uaineteinestudio/) - The CSV reader required to import the namelists from which to generate a full name randomly
 
 ### Installing
 
