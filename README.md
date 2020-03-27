@@ -28,11 +28,6 @@ Open terminal/cmd and use .NET core to build with:
 dotnet publish -c release -r ubuntu.16.04-x64 --self-contained
 ```
 
-For either platform the built app into your working directory. Git creditional storing is required in that project folder. Set with:
-```
-git config credential.helper store
-```
-
 ## Authors
 
 * **Daniel Stamer-Squair** - *UaineTeine*
