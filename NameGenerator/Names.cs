@@ -101,6 +101,7 @@ namespace Namelists
             //default
             return basename;
         }
+        public static int nationtypes = 8;
         public static string GetNationName(string basename, int type)
         {
             switch (type)
@@ -109,7 +110,7 @@ namespace Namelists
                     return "The Kingdom of " + basename;
                     break;
                 case 1:
-                    return "The adjective " + basename;
+                    return "The Union of " + basename;
                     break;
                 case 3:
                     return "The " + basename + " Republic";
